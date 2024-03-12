@@ -5,9 +5,9 @@ let app = express();
 //   res.send("Hello Express");
 // });
 
-absolutePath = __dirname + '/public';
+// absolutePath = __dirname + '/public';
 
-app.use(express.static(absolutePath));
+app.use(express.static('public'));
 
 // app.get("/", (req, res) => {
 //     res.sendFile(absolutePath);
